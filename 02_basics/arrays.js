@@ -27,7 +27,7 @@ const myArray2 = new Array ("1, 2, 3, 4")
 
 // slice, splice
 
-console.log("A ", myArray);
+console.log("A ", myArray); 
 
 const myn1 = myArray.slice(1, 3)
 
