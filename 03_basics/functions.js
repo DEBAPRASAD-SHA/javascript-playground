@@ -24,36 +24,36 @@ const result = addTwoNumbers(3, 5) //where the passing the calling value for tha
 
 // console.log("Result", result);
 
-function loginUserMessage(username = "sam"){
+
+function loginUserMessage(username = "deb"){
     if(!username){
-        console.log("PLease enter a username");
-        return
+console.log("Please enter a username");
+return
     }
     return `${username} just logged in`
 }
 
-// console.log(loginUserMessage("hitesh"))
-// console.log(loginUserMessage("hitesh"))
+// console.log(loginUserMessage("deba"))
+// console.log(loginUserMessage("deba"))
 
-
-function calculateCartPrice(val1, val2, ...num1){
-    return num1
+function calculateCartPrice(val1, val2, ...num1){  //this "..." 3dot known as rest operator
+ return num1
 }
 
-// console.log(calculateCartPrice(200, 400, 500, 2000))
+// console.log(calculateCartPrice(200, 400, 500, 446))
 
 const user = {
-    username: "hitesh",
-    prices: 199
+    username: "deba",
+    prices: 299
 }
 
 function handleObject(anyobject){
-    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
 }
 
 // handleObject(user)
 handleObject({
-    username: "sam",
+    username: "deba",
     price: 399
 })
 
