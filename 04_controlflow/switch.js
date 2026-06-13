@@ -1,8 +1,7 @@
 // switch (key) {
 //     case value:
-        
-//         break;
 
+//         break;
 //     default:
 //         break;
 // }
@@ -11,7 +10,7 @@ const month = "march"
 
 switch (month) {
     case "jan":
-        console.log("January");
+        console.log("jan");
         break;
     case "feb":
         console.log("feb");
@@ -24,6 +23,6 @@ switch (month) {
         break;
 
     default:
-        console.log("default case match");
+        console.log("default case amtch");
         break;
 }
