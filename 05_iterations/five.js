@@ -1,11 +1,11 @@
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
-// coding.forEach( function (val){
-//     console.log(val);
+// coding.forEach( function (item) {
+//     console.log(item);
 // } )
 
-// coding.forEach( (item) => {
-//     console.log(item);
+// coding.forEach( (val) => {
+//     console.log(val);
 // } )
 
 // function printMe(item){
@@ -14,18 +14,18 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 // coding.forEach(printMe)
 
-// coding.forEach( (item, index, arr)=> {
-//     console.log(item, index, arr);
+// coding.forEach( (item, indexx, arr)=> {
+//     console.log(item, indexx, arr);
 // } )
 
 const myCoding = [
     {
-        languageName: "javascript",
+        languageName: "jvascript",
         languageFileName: "js"
     },
     {
         languageName: "java",
-        languageFileName: "java"
+        languageFileName: "jv"
     },
     {
         languageName: "python",
@@ -34,6 +34,6 @@ const myCoding = [
 ]
 
 myCoding.forEach( (item) => {
-    
     console.log(item.languageName);
+    // console.log(item.languageFileName);
 } )
