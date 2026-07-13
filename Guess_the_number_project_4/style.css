@@ -110,7 +110,3 @@ label{
     transition: .3s;
 }
 
-.button h2:hover{
-    transform: scale(1.05);
-    background: #00bcd4;
-}
