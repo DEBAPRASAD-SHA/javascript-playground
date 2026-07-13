@@ -99,18 +99,3 @@ label{
     background: rgba(255,255,255,.12);
     color: #fff;
 }
-
-.button h2{
-    margin-top: 20px;
-    padding: 14px;
-    background: #00d9ff;
-    color: black;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: .3s;
-}
-
-.button h2:hover{
-    transform: scale(1.05);
-    background: #00bcd4;
-}
