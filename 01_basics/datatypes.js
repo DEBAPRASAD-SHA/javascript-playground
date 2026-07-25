@@ -6,7 +6,7 @@ console.log(3+3)
 console.log("deba")
 
 let name = "deba"
-let age = 24
+let age = 24.8
 let isLoggedIn = false
 let state = null
 
